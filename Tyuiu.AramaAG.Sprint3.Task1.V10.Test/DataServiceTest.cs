@@ -8,7 +8,7 @@ namespace Tyuiu.AramaAG.Sprint3.Task1.V10.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetSumSeries()
+        public void ValidDeleteCharInString()
         {
             DataService ds = new DataService();
             double value = 5;
