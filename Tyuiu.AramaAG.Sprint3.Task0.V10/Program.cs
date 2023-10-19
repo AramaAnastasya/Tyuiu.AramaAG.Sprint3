@@ -30,7 +30,7 @@ namespace Tyuiu.AramaAG.Sprint3.Task0.V10
             double value = 5;
             int startValue = 1;
             int stopValue = 5;
-            Console.WriteLine($" Значение x = {value}.\n Стартовое значение цикла = {stopValue}.\n Конечное значение цикла = {stopValue}.");
+            Console.WriteLine($" Значение x = {value}.\n Стартовое значение цикла = {startValue}.\n Конечное значение цикла = {stopValue}.");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
