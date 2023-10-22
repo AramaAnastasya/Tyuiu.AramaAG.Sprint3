@@ -11,10 +11,10 @@ namespace Tyuiu.AramaAG.Sprint3.Task1.V10.Test
         public void ValidDeleteCharInString()
         {
             DataService ds = new DataService();
-            double value = 5;
+            int value = 5;
             int startValue = 1;
             int stopValue = 17;
-            double p = ds.GetMultiplySeries(value, startValue, stopValue);
+            double p = ds.GetSumSeries(value, startValue, stopValue);
             Assert.AreEqual(0.168, p);
         }
     }
