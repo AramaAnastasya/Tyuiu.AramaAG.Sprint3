@@ -27,14 +27,14 @@ namespace Tyuiu.AramaAG.Sprint3.Task0.V10
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            double value = 5;
+            int value = 5;
             int startValue = 1;
             int stopValue = 5;
             Console.WriteLine($" Значение x = {value}.\n Стартовое значение цикла = {startValue}.\n Конечное значение цикла = {stopValue}.");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            double p  = ds.GetSumSeries(value, startValue, stopValue);
+            double p  = ds.GetMultiplySeries(value, startValue, stopValue);
             Console.WriteLine(p);
             Console.ReadKey();
         }

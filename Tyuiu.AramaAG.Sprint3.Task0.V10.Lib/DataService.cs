@@ -9,7 +9,7 @@ namespace Tyuiu.AramaAG.Sprint3.Task0.V10.Lib
 {
     public class DataService : ISprint3Task0V10
     {
-        public double GetSumSeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double p = 1;
             for (int i = startValue; i <= stopValue; i++)

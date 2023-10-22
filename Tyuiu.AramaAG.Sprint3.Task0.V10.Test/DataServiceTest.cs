@@ -11,10 +11,10 @@ namespace Tyuiu.AramaAG.Sprint3.Task0.V10.Test
         public void ValidGetSumSeries()
         {
             DataService ds = new DataService();
-            double value = 5;
+            int value = 5;
             int startValue = 1;
             int stopValue = 5;
-            double p = ds.GetSumSeries(value, startValue, stopValue);
+            double p = ds.GetMultiplySeries(value, startValue, stopValue);
             Assert.AreEqual(0.033, p);
         }
     }
