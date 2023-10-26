@@ -20,7 +20,7 @@ namespace Tyuiu.AramaAG.Sprint3.Task4.V25.Lib
                 }
                 res += (x / (Math.Cos(x) - Math.Sin(x)));
             }
-            return Math.Round(res, 2);
+            return Math.Round(res, 3);
         }
     }
 }
