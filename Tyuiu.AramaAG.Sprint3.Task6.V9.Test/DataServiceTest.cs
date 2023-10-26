@@ -8,7 +8,7 @@ namespace Tyuiu.AramaAG.Sprint3.Task6.V9.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetSumSumSeries()
+        public void ValidGetSumTheDivisors()
         {
             DataService ds = new DataService();
             int startValue = 19;
