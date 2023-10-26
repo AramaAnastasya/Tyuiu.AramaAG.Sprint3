@@ -7,7 +7,7 @@ namespace Tyuiu.AramaAG.Sprint3.Task4.V25.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidDeleteCharInString()
+        public void ValidCalculate()
         {
             DataService ds = new DataService();
             int startValue = -5;
